@@ -10,7 +10,6 @@ def get_host_ip():
         ip = s.getsockname()[0]
     finally:
         s.close()
-
     return ip
 
 a = get_host_ip()
